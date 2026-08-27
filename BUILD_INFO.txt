@@ -1,0 +1,20 @@
+Analysis Ultimate — Basalte-Web
+Version: 4.0.0 ULTIMATE URBAN FUSION
+Build: 2026-08-27
+
+Cette version conserve l’intégralité d’Analysis Ultimate 3.2 et ajoute :
+- Urban Fusion Engine : fusion automatique des données commerciales TGM et du contexte urbain public.
+- Clermont Métropole Explore API : travaux, voirie, Base Adresse Locale et stationnement.
+- Agenda officiel de Clermont-Ferrand : événements et historique d’apparition.
+- T2C GTFS-RT : santé du flux, mises à jour de trajets, retards/annulations lorsque le décodage est valide.
+- C.vélo : disponibilité vélos/places par station.
+- ZELT : comptages vélo quotidiens comme indicateur d’activité urbaine.
+- Open-Meteo : pluie/température comme variables de contrôle.
+- Vacances scolaires Zone A et jours fériés déjà intégrés au moteur local.
+- Historisation publique jusqu’à 2 160 snapshots pour apprendre les relations dans le temps.
+- Causal Context Engine étendu : travaux, T2C, parking, événements, météo, mobilité, stock, prix, saisonnalité et remises sont testés en concurrence.
+- Filtre renforcé des jeux Open Data afin d’éviter les faux « travaux » issus des marchés publics/patrimoine/budgets.
+- Geo Intelligence rendu défensif : rendu asynchrone, limitation du DOM, valeurs nulles protégées, écran de secours et bouton Réessayer au lieu d’un écran vide.
+- Cache v4 séparé et contexte public toujours chargé en network-first/no-store.
+
+Aucune extraction TGM ni donnée client n’est transmise par le connecteur public.
