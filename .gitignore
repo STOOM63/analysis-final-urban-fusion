@@ -1,0 +1,10 @@
+# Ne jamais versionner les extractions TGM ni les données clients
+*.csv
+*.xlsx
+*.xls
+*.ods
+*.zip
+
+# Fichiers système
+.DS_Store
+Thumbs.db
